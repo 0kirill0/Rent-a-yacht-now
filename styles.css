@@ -176,7 +176,8 @@ input:-webkit-autofill:active {
     background-color: #1F212D;
     padding: 97px 64px 64px 64px;
     background-image: url(./img/Ellipse-close.png);
-    background-position: 0 -110px;
+    background-position: -50px -110px;
+    background-repeat: no-repeat;
 }
 
 .close-btn {
@@ -233,4 +234,6 @@ input:-webkit-autofill:active {
     letter-spacing: -0.32px;
 }
 
-.close-text {}
+.close-text {
+    max-width: 452px;
+}
