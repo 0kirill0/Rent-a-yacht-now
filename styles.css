@@ -86,6 +86,11 @@ img {
   | modal block
   |============================
 */
+/*.close-window {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}*/
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
